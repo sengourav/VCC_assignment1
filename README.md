@@ -35,13 +35,14 @@ Both VMs are connected through a Host-Only Network in VirtualBox, allowing them 
 
 - `src/`: Contains the source code for the microservice
 - `deployment/`: Contains deployment instructions and configuration
-- `docs/`: Contains architecture diagrams and additional documentation
+- `docs/`: Contains architecture diagrams and output results
 
 ## Architecture
 
 The architecture consists of two VMs connected through a Host-Only Network in VirtualBox. VM1 hosts the microservice and VM2 acts as the client.
 
-![Architecture Diagram](docs/images/architecture.png)
+![VM_architecture](https://github.com/user-attachments/assets/3bedba4c-5a8b-4e29-a6f3-155c8123f478)
+
 
 For more details, see [docs/architecture.md](docs/architecture.md).
 
@@ -63,7 +64,6 @@ You should receive the response: "Hello from microservice on VM1"
 
 ## Future Work
 
-- Scale the architecture by adding more VMs to host additional microservices
 - Implement secure communication with HTTPS
 - Add service discovery mechanism to find services without hardcoding IPs
 - Extend the service to handle dynamic user data
