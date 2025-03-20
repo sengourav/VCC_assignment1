@@ -69,9 +69,6 @@ You should receive the response: "Hello from microservice on VM1"
 - Extend the service to handle dynamic user data
 - Consider moving to cloud platforms for better scalability
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Author
 
